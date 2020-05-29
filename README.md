@@ -2,6 +2,12 @@
 
 Super light weight neo4j python driver with multi-graph support.
 
+## Installation
+
+```bash
+pip install neolite
+```
+
 ## Basic Example
 
 ```python
