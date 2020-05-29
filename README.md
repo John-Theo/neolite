@@ -1,6 +1,6 @@
 # NeoLite
 
-Super light weight neo4j python driver with multi-graph support.
+Super light weight neo4j python driver with **multi-graph** support.
 
 ## Installation
 
