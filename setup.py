@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="neolite",
-    version="0.7.0",
+    version="0.7.1",
     author="John Theo",
     author_email="xinhaozhuang.work@gmail.com",
     description="Super light weight neo4j python driver with multi-graph support.",
