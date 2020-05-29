@@ -1,0 +1,5 @@
+credentials.py
+__pycache__
+.DS_STORE
+neolite*
+.vscode
