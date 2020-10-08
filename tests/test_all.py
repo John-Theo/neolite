@@ -1,11 +1,16 @@
-from credentials import host, username, password, db
 from neolite import Graph, CypherError
 import pytest
 
 
+HOST = 'localhost'
+USERNAME = 'neo4j'
+PASSWORD = 'zxh123'
+DB = 'neo4j'
+
+
 @pytest.fixture
 def auth_graph():
-    graph = Graph(host, auth=(username, password), db=db)
+    graph = Graph(HOST, auth=(USERNAME, PASSWORD), db=DB)
     graph.server_info()
     return graph
 
